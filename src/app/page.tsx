@@ -1,3 +1,4 @@
+import Animat from "./components/Animat";
 import CourseSection from "./components/CourseSection";
 import HeroSection from "./components/HeroSection";
 import Moving from "./components/Moving";
@@ -12,6 +13,7 @@ export default function Home() {
       <Why />
       <Moving />
       <Webinar />
+      <Animat />
     </main>
   );
 }
