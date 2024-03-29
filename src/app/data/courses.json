@@ -6,8 +6,7 @@
       "slug": "my-fundamentals",
       "description": "hey world lets learn some coding",
       "price": 100,
-      "isFeatured": true,
-      "image": "/course/hello.jpg"
+      "isFeatured": true
     },
     {
       "id": 2,
@@ -15,8 +14,7 @@
       "slug": "my-fundamentals",
       "description": "hey world lets learn some coding",
       "price": 110,
-      "isFeatured": true,
-      "image": "/course/hello.jpg"
+      "isFeatured": true
     },
     {
       "id": 3,
@@ -24,8 +22,15 @@
       "slug": "my-fundamentals",
       "description": "hey world lets learn some coding",
       "price": 120,
-      "isFeatured": true,
-      "image": "/course/hello.jpg"
+      "isFeatured": true
+    },
+    {
+      "id": 4,
+      "title": "fundamentals",
+      "slug": "my-fundamentals",
+      "description": "hey world lets learn some coding",
+      "price": 120,
+      "isFeatured": true
     }
   ]
 }

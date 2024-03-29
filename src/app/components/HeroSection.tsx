@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
+import { Button } from "./ui/moving-border";
 
 function HeroSection() {
   return (
@@ -13,13 +14,12 @@ function HeroSection() {
           Hey this is Mahtab Azam
         </h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Striving to secure and maintain a challenging position in a reputed
-          organization so that I can expand my learning, knowledge, and polish
-          my skills, and maintain a responsible career opportunity so that I can
-          fully utilize my training and skills.
+          Embedded System Engineer | Next JS Developer
         </p>
         <div className="mt-4">
-          <Link href={"/courses"}>Explore Projects</Link>
+          <Link href={"/courses"}>
+            <Button borderRadius="1.75rem">Explore </Button>
+          </Link>
         </div>
       </div>
     </div>
