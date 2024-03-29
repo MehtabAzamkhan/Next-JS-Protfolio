@@ -1,6 +1,7 @@
 import CourseSection from "./components/CourseSection";
 import HeroSection from "./components/HeroSection";
 import Moving from "./components/Moving";
+import Webinar from "./components/Webinar";
 import Why from "./components/Why";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <CourseSection />
       <Why />
       <Moving />
+      <Webinar />
     </main>
   );
 }
