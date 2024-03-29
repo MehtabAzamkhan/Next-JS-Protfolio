@@ -33,10 +33,17 @@ function CourseSection() {
           {featuredCourses.map((course: Course) => (
             <div key={course.id} className="flex justify-center">
               <BackgroundGradient className=" flex flex-colrounded-[22px] max-w-sm h-full p-4 sm:p-10 bg-white dark:bg-zinc-900 overflow-hidden">
-                <div className="p-4 sm:p-6 flex- flex-coln items-center text-center flex-grow">
-                  <p>{course.title}</p>
-                  <p>{course.description}</p>
-                  <Link href={`/courses/${course.slug}`}>Learn More</Link>
+                <div className="p-2 sm:p-6 flex- flex-coln items-center text-center flex-grow">
+                  <p className="font-bold text-xl mb-5">{course.title}</p>
+                  <p className="text-2xl text-white-700  mb-10">
+                    {course.description}
+                  </p>
+                  <Link
+                    className="mt-20 text-center"
+                    href={`/courses/${course.slug}`}
+                  >
+                    <Button borderRadius="1.75rem">Explore This</Button>
+                  </Link>
                 </div>
               </BackgroundGradient>
             </div>
